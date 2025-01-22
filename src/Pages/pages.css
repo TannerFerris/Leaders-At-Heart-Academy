@@ -1,0 +1,92 @@
+.Banner{
+    height: 225px;
+    color: #f7f7eb;
+    font-size: 9vw;
+    background-color: #121f30;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.CareerBanner{
+    height: 225px;
+    color: #f7f7eb;
+    font-size: 9vw;
+    background-color: #121f30;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.LanguageBanner{
+    height: 225px;
+    color: #f7f7eb;
+    font-size: 5vw;
+    background-color: #121f30;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.SolutionsBanner{
+    height: 225px;
+    color: #f7f7eb;
+    font-size: 4vw;
+    background-color: #121f30;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.svg-container2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 150vh;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    overflow: hidden;
+    z-index: 1;
+    display: none;
+}
+
+.scribbleSvg {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 960px) {
+    .Banner {
+        height: 100px;
+    }
+
+    .CareerBanner {
+        height: 100px;
+    }
+
+    .LanguageBanner{
+        height: 100px;
+    }
+
+    .SolutionsBanner{
+        height: 100px;
+    }
+}

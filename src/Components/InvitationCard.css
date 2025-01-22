@@ -1,0 +1,111 @@
+.invitationMain{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: radial-gradient(circle at bottom left,transparent 25%,#121f30 25.5%, #121f30 36%, transparent 37%, transparent 100%),radial-gradient(circle at top right,transparent 34%,#121f30 34.5%, #121f30 45.5%, transparent 46%, transparent 100%);
+        background-size: 4em 4em;
+        background-color: #7a2329;
+        opacity: 1;
+    color: #f7f7eb;
+    padding: 5rem;
+    z-index: 2;
+}
+
+
+.invitationSection{
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+    gap: 3rem;
+}
+
+
+
+.visitSection{
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    gap: 1rem;
+}
+
+
+.InvitationTitle{
+    font-size: 4.875rem;
+    line-height: 4rem;
+    font-weight: 700;
+}
+
+.invitationInfo{
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 960px){
+    .invitationInfo{
+        font-size: 2rem;
+        line-height: 1.5rem;
+        min-width: 300px;
+    }
+
+    .InvitationTitle{
+        font-size: 2.5rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .visitSection{
+        position: relative;
+        margin-top: 3rem;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .invitationSection{
+        position: relative;
+        width: 100%;
+    }
+
+    .invitationMain{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        }
+}
+
+
+  /*Microsoft Surface*/
+  @media screen 
+  and (min-height: 899px) 
+  and (min-width: 1199px) {
+    
+    .InvitationTitle{
+        font-size: 3.5rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+

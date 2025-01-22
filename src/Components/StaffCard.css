@@ -1,0 +1,391 @@
+.AboutUsmain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    background-color: #121f30;
+}
+
+.AboutUssection {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: .5rem;
+    background: radial-gradient(circle at top left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%),radial-gradient(circle, transparent 25%, #7a2329  26%),linear-gradient(0deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%);
+    background-size: 1em 1em;
+    background-color: #7a2329;
+    color: #f7f7eb;
+    padding: 1rem;
+    border-radius: 1em;
+}
+
+.AboutUssection1 {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    background-color: black;
+    color: #f7f7eb;
+    
+    border-radius: 1em;
+    background-color: #121f30;
+}
+
+
+
+.TJInfocontainer {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    background: radial-gradient(circle at top left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%),radial-gradient(circle, transparent 25%, #7a2329  26%),linear-gradient(0deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%);
+    background-size: 1em 1em;
+    background-color: #7a2329;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-radius: 1em;
+}
+
+.TJInfo {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.TJInfocontainer h1 {
+    font-size: 3.5vw;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.TJInfocontainer h2 {
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.TJPicture {
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.TJPicture img {
+    border-radius: 2rem;
+}
+
+.AnnouncementVideocontainer {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: radial-gradient(circle at top left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%),radial-gradient(circle, transparent 25%, #7a2329  26%),linear-gradient(0deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%);
+    background-size: 1em 1em;
+    background-color: #7a2329;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 1em;
+}
+
+.videoplaceholder {
+    height: 350px;
+    width: 90%;
+    border-radius: 1em;
+
+}
+
+.FAQvideoplaceholder {
+    height: 350px;
+    width: 90%;
+    border-radius: 1em;
+
+}
+
+.OrgChartcontainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.PressReleasecontainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.FAQcontainer {
+    gap: 1rem;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: radial-gradient(circle at top left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%),radial-gradient(circle, transparent 25%, #7a2329  26%),linear-gradient(0deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%);
+    background-size: 1em 1em;
+    background-color: #7a2329;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 1em;
+}
+
+
+.BioInfocontainer {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: radial-gradient(circle at top left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%),radial-gradient(circle, transparent 25%, #7a2329  26%),linear-gradient(0deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%);
+    background-size: 1em 1em;
+    background-color: #7a2329;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 1em;
+}
+
+.BioInfocontainer p {
+    font-size: .85vw;
+    text-align: left;
+    max-width: 90%;
+}
+
+.BulletInfocontainer {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: radial-gradient(circle at top left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%),radial-gradient(circle, transparent 25%, #7a2329  26%),linear-gradient(0deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%);
+    background-size: 1em 1em;
+    background-color: #7a2329;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 1em;
+}
+
+/*
+
+.BulletInfocontainer ul {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.BulletInfocontainer ul li {
+    font-size: 2.5vw;
+}
+
+*/
+
+.StaffRollerSection {
+    width: 100%;
+    height: 10vh;
+
+}
+
+.StaffInfoPoints{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.StaffInfoPointsSlide{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   gap: 5rem;
+    animation: 30s slide2 infinite linear;
+    font-size: 2.5vw;
+}
+
+@keyframes slide2 {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.salarydiv {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vw;
+}
+
+.salaryLink{
+    font-size: 1.1vw;
+    text-decoration: underline;
+}
+
+.salaryLink:hover{
+    color: red;
+}
+
+
+/* TABLETS Landscape */
+@media screen and (max-width: 1366px){
+
+    .TJPicture {
+        width: 90%;
+    }
+
+    .TJInfocontainer h1 {
+        font-size: 4vw;
+    }
+    
+    .TJInfocontainer h2 {
+        font-size: 4vw;
+    }
+
+    .BioInfocontainer p {
+        font-size: 1vw;
+    }
+    
+}
+
+/* PHONES */
+@media screen and (max-width: 960px) {
+    .AboutUssection {
+        flex-direction: column-reverse;
+    }
+    .AboutUssection1 {
+        flex-direction: column;
+    }
+
+    .AnnouncementVideocontainer {
+        height: 30vh;
+    }
+
+    .FAQcontainer {
+        height: 30vh;
+    }
+
+    .TJInfocontainer {
+        flex-direction: column-reverse;
+        height: 100%;
+        gap: 2rem;
+    }
+
+    .TJInfocontainer h1 {
+        font-size: 7vw;
+    }
+    
+    .TJInfocontainer h2 {
+        font-size: 7vw;
+    }
+
+    .TJInfo {
+        width: 90%;
+        gap: .5rem;   
+    }
+
+    .videoplaceholder {
+        height: 200px;
+    }
+
+
+    .TJPicture {
+        width: 90%;
+    }
+
+    .FAQcontainer h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 4rem;
+    }
+
+    .FAQvideoplaceholder {
+        height: 200px;
+        width: 90%;
+    
+    }
+
+    .BioInfocontainer {
+        height: 100%;
+    }
+
+    .BioInfocontainer p {
+        font-size: 3vw;
+    }
+
+    .StaffInfoPointsSlide{
+         font-size: 9vw;
+         animation: 30s slide2 infinite linear;
+     }
+
+    .salarydiv {
+        display: flex;
+        flex-direction: column;
+        font-size: 7vw;
+    }
+
+    @keyframes slide2 {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-900%);
+        }
+    }
+    
+    .salaryLink{
+        font-size: 3vw;
+        text-decoration: underline;
+    }
+        
+}

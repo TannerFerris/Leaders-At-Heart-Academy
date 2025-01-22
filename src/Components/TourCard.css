@@ -1,0 +1,125 @@
+.tourMain{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-image: repeating-conic-gradient(from 45deg at 15% 15%, 
+    #7A2329 0 10deg,
+    #121F30 10deg 20deg, 
+    #7A2329 20deg 30deg, 
+    #121F30 30deg 40deg, 
+    #7A2329 40deg 50deg);
+    padding-bottom: 6rem;
+}
+
+
+.bigTitle{
+    height: 100%;
+    width: 100%;
+    font-size: 11rem;
+    color: #f7f7eb;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+}
+
+
+.tourContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f7f7eb;
+}
+
+.header{
+    font-size: 4rem;
+}
+
+.tourForm{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.booking{
+    display: flex;
+    flex-direction: column;
+}
+
+.tourInput{
+    border-radius: 3px;
+    color: black;
+}
+
+.submit{
+    background-color: black;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1475px) {
+    .tourMain{
+        flex-direction: column-reverse;
+        gap: 4rem;
+    }
+
+    .bigTitle{
+        display: none;
+    }
+
+    .tourContainer{
+        
+    }
+    
+    .header{
+        font-size: 4rem;
+        white-space: nowrap;
+    }
+    
+    .tourForm{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        font-size: 2rem;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .booking{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tourInput{
+    }
+    
+    .submit{
+        width: 100%;
+    }
+
+
+}
