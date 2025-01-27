@@ -10,6 +10,11 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
+
+    - name: Build Project
+      run: |
+        npm install
+        npm run build
     
     - name: 📂 Sync fisles
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
