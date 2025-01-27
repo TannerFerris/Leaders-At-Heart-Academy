@@ -28,4 +28,4 @@ jobs:
         with:
           server: ftp.samkirkland.com
           username: dg1ujf767230
-          password: ${{ dg1ujf7672301234 }}
+          password: ${{ secrets.dg1ujf7672301234 }}
