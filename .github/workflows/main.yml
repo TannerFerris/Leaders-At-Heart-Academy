@@ -23,7 +23,7 @@ jobs:
       - name: Build React App (depending on user app) 🏗️
         run: npm run build
 
-        - name: 📂 Sync files
+      - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ftp.samkirkland.com
