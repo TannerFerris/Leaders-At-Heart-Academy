@@ -1,111 +1,127 @@
-.mainAdvisoryBoard{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    gap: 1rem;
-    width: 100%;
-    height: 100%;
-    color: #f7f7eb;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    background-color: #121f30;
-    opacity: 1;
-    font-family: "Noto Serif", serif;
+.mainAdvisoryBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  color: #f7f7eb;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #121f30;
+  opacity: 1;
+  font-family: "Noto Serif", serif;
 }
 
 .Advisorysection {
-    height: 100%;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    gap: 1rem;
-    color: #f7f7eb;
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  color: #f7f7eb;
 }
 
 .AdvisoryCardcontainer {
-    height: 70vh;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    align-content: center;
-    font-family: 'PT Sans', sans-serif;
-    z-index: 2;
-    text-align: left;
-    gap: 1rem;
-    background: radial-gradient(circle at top left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%),radial-gradient(circle, transparent 25%, #7a2329  26%),linear-gradient(0deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%);
-    background-size: .2em .2em;
-    background-color: #7a2329;
-    padding: 1rem;
-    border-radius: 1em;
+  height: 70vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  align-content: center;
+  font-family: "PT Sans", sans-serif;
+  z-index: 2;
+  text-align: left;
+  gap: 1rem;
+  background: radial-gradient(
+      circle at top left,
+      transparent 9%,
+      #121f30 10%,
+      #121f30 15%,
+      transparent 16%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      transparent 9%,
+      #121f30 10%,
+      #121f30 15%,
+      transparent 16%
+    ),
+    radial-gradient(
+      circle at top right,
+      transparent 9%,
+      #121f30 10%,
+      #121f30 15%,
+      transparent 16%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      transparent 9%,
+      #121f30 10%,
+      #121f30 15%,
+      transparent 16%
+    ),
+    radial-gradient(circle, transparent 25%, #7a2329 26%),
+    linear-gradient(
+      0deg,
+      transparent 44%,
+      #121f30 45%,
+      #121f30 55%,
+      transparent 56%
+    ),
+    linear-gradient(
+      90deg,
+      transparent 44%,
+      #121f30 45%,
+      #121f30 55%,
+      transparent 56%
+    );
+  background-size: 0.2em 0.2em;
+  background-color: #7a2329;
+  padding: 1rem;
+  border-radius: 1em;
 }
 
-.AdvisoryCardcontainer2 {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    align-content: center;
-    font-family: 'PT Sans', sans-serif;
-    z-index: 2;
-    text-align: left;
-    gap: 1rem;
-    background: radial-gradient(circle at top left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #121F30 10% ,#121F30 15% , transparent 16%),radial-gradient(circle, transparent 25%, #7a2329  26%),linear-gradient(0deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%), linear-gradient(90deg, transparent 44%, #121F30 45%, #121F30 55%, transparent 56%);
-    background-size: .2em .2em;
-    background-color: #7a2329;
-    padding: 1rem;
-    border-radius: 1em;
+.AdvisoryCardcontainer h1 {
+  font-size: 1.5vw;
 }
 
-.AdvisoryCardcontainer h1{
-    font-size: 1.5vw;
+.AdvisoryCardcontainer h2 {
+  font-size: 0.8vw;
 }
-
-.AdvisoryCardcontainer2 h1{
-    font-size: 1.5vw;
-}
-
-.AdvisoryCardcontainer h2{
-    font-size: .8vw;
-}
-
 
 /* PHONES */
 @media screen and (max-width: 960px) {
+  .Advisorysection {
+    flex-direction: column;
+  }
 
-    .Advisorysection {
-        flex-direction: column;
-    }
+  .AdvisoryCardcontainer {
+    width: 100%;
+    height: 100%;
+  }
 
-    .AdvisoryCardcontainer {
-        width: 100%;
-        height: 100%;
-    }
+  .AdvisoryCardcontainer2 {
+    width: 100%;
+    height: 100%;
+  }
 
-    .AdvisoryCardcontainer2 {
-        width: 100%;
-        height: 100%;
-    }
+  .AdvisoryCardcontainer h1 {
+    font-size: 5vw;
+  }
 
-    .AdvisoryCardcontainer h1 {
-        font-size: 5vw;
-    }
+  .AdvisoryCardcontainer2 h1 {
+    font-size: 5vw;
+  }
 
-    .AdvisoryCardcontainer2 h1 {
-        font-size: 5vw;
-    }
-
-    .AdvisoryCardcontainer h2 {
-        font-size: 2.5vw;
-    }
-    
+  .AdvisoryCardcontainer h2 {
+    font-size: 2.5vw;
+  }
 }
