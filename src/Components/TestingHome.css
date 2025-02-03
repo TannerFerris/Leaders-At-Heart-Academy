@@ -140,17 +140,15 @@
 }
 
 .testTitleFinale {
-  padding: 0.5em;
   text-align: center;
   font-size: 2.5vw;
   border-color: white;
   border-width: 10px;
-  line-height: 0;
+  white-space: nowrap;
   padding: 1em;
 }
 
 .Question {
-  display: inline-block;
 }
 
 .Grabber {
@@ -464,7 +462,7 @@ svg {
 
   .Question {
     font-size: 5vw;
-    line-height: 1.3;
+    white-space: wrap;
   }
 
   .Grabber {
