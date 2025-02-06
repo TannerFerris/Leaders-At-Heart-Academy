@@ -6,6 +6,56 @@ function AdvisoryBoard() {
       <section className="Advisorysection">
         <div className="AdvisoryCardcontainer">
           <h1>Chad Newsom, Board President</h1>
+          <h2>
+            Chad Newsom graduated from Ennis High School in 1991 before
+            attending Navarro Junior College in Corsicana for two years. Seeking
+            to further his education, he transferred to the University of Texas
+            at Austin, where he spent four years in general studies before
+            discovering his passion for education in the second half of his
+            senior year. Two years later, he earned a Bachelor of Science in
+            Applied Learning and Development with a double minor in Life and
+            Earth Science. After obtaining his Texas Teaching Certificate, he
+            began his teaching career in Taylor, Texas, where he taught
+            5th-grade Mathematics, Social Studies, Science, and Health,
+            co-teaching alongside a bilingual reading teacher. During his four
+            years in Taylor ISD, he served under two principals, four assistant
+            principals, and two superintendents, eventually becoming Lead Team
+            Teacher in his final year.
+            <br />
+            <br />
+            Looking for new opportunities, Chad transitioned to Leander ISD,
+            where he taught 5th-grade Mathematics for two years. It was during
+            this time that he met his future wife, a Special Education teacher.
+            After getting married, they moved to Palmer, Texas, where she
+            accepted a position in Waxahachie ISD, and Chad took a 4th-grade
+            Reading position in Ennis ISD. He later transitioned to teaching
+            5th-grade Reading and Language Arts, spending a total of two years
+            in Ennis ISD.
+            <br />
+            <br />
+            In March 2006, following the birth of their first daughter, Chad
+            decided to pursue a new career path and joined Commercial State
+            Bank. He began working in the Loan Underwriting Department, where he
+            quickly made an impact by suggesting and implementing updates to the
+            bank's information technology structure. His contributions led to
+            his promotion as Information Technology Coordinator. From there, he
+            progressed through various leadership roles, serving as Loan
+            Officer, Vice President, Executive Vice President, and ultimately
+            becoming the President of Commercial State Bank. He now serves as
+            the Vice Chairman of the Board of Directors and is a trustee of a
+            trust that owns stock in the bank.
+            <br />
+            <br />
+            Beyond his work in banking, Chad is deeply involved in his
+            community, serving on both the Palmer Economic Committee and the
+            Ferris Economic Committee. His wife currently works in the +18
+            Program in Waxahachie ISD. Their oldest daughter is a freshman at
+            the University of Arkansas, while their youngest is a sophomore at
+            Waxahachie High School. The Newsom family's home is filled with
+            love, and animals, including four cats, five dogs, four horses,
+            fifteen sheep, five chickens, and one llama. In his free time, Chad
+            enjoys cooking, hunting, fishing, and spending time outdoors.
+          </h2>
         </div>
         <div className="AdvisoryCardcontainer">
           <h1>Ofelia Grass</h1>
