@@ -23,7 +23,6 @@ function StaffCard() {
             className="FAQvideoplaceholder"
             src="https://www.youtube.com/embed/6X9EldUKpig?si=_u1-1pVCMTBoAvib&rel=0&controls=0"
             title="YouTube video player"
-            frameBorder="1"
             allowFullScreen
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -33,6 +32,28 @@ function StaffCard() {
           <iframe
             className="videoplaceholder"
             src="https://www.youtube.com/embed/XMOIdfwfrqA?si=_ob8T-VWZDZOAzPJ&rel=0&controls=0"
+            title="YouTube video player"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>{" "}
+        </div>
+      </section>
+      <section className="AboutUssection1">
+        <div className="FAQcontainer">
+          <iframe
+            className="FAQvideoplaceholder"
+            src="https://www.youtube.com/embed/0istRnnb3F0?si=PyVf_x8-MKtHxyRC&rel=0&controls=0"
+            title="YouTube video player"
+            allowFullScreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+        <div className="AnnouncementVideocontainer">
+          <iframe
+            className="videoplaceholder"
+            src="https://www.youtube.com/embed/I2ccTT7YTE0?si=AcZ1tns_xCxEOdEA&rel=0&controls=0"
             title="YouTube video player"
             allowfullscreen
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
