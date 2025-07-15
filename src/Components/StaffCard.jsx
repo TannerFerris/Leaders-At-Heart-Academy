@@ -1,6 +1,7 @@
 import "./StaffCard.css";
 import TJPicture from "../assets/TJpicture.png";
 import PressReleasePicture from "../assets/PressReleasepicture.png";
+import tjUpdate from "../assets/tj_update.png";
 import OrgChartPicture from "../assets/OrgChartpicture-CH63W14l.jpg";
 
 /*
@@ -111,6 +112,12 @@ function StaffCard() {
             with the same passion, integrity, and dedication that have defined
             his career.
           </p>
+        </div>
+      </section>
+
+      <section className="AboutUssection">
+        <div className="PressReleasecontainer">
+          <img src={tjUpdate} alt="Superintendent Update" />
         </div>
       </section>
 
