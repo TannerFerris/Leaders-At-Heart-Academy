@@ -21,7 +21,6 @@
     "@tailwindcss/vite": "^4.1.18",
     "framer-motion": "^12.23.26",
     "gsap": "^3.14.2",
-    "pure-react-carousel": "^1.32.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-draggable": "^4.5.0",
