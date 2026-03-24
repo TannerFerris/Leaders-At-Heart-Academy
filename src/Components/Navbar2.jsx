@@ -17,22 +17,21 @@ function Navbar2() {
       setButton(false);
     } else {
       setButton(true);
-
     }
   };
 
   useEffect(() => {
     showButton();
+    window.addEventListener('resize', showButton);
+    return () => window.removeEventListener('resize', showButton);
   }, []);
-
-  window.addEventListener('resize', showButton);
 
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img className="NAVlogo" src={logo}/>
+            <img className="NAVlogo" src={logo} alt="Leaders At Heart Academy logo" />
             <h1>LEADERS AT HEART</h1>
           </Link>
           <div className='menu-icon' onClick={handleClick}>

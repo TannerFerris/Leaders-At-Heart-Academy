@@ -6,7 +6,7 @@ function AdvisoryBoard() {
       <section className="Advisorysection">
         <div className="AdvisoryCardcontainer">
           <h1>Chad Newsom, Board President</h1>
-          <h2>
+          <p>
             Chad Newsom graduated from Ennis High School in 1991 before
             attending Navarro Junior College in Corsicana for two years. Seeking
             to further his education, he transferred to the University of Texas
@@ -21,8 +21,8 @@ function AdvisoryBoard() {
             years in Taylor ISD, he served under two principals, four assistant
             principals, and two superintendents, eventually becoming Lead Team
             Teacher in his final year.
-            <br />
-            <br />
+          </p>
+          <p>
             Looking for new opportunities, Chad transitioned to Leander ISD,
             where he taught 5th-grade Mathematics for two years. It was during
             this time that he met his future wife, a Special Education teacher.
@@ -31,8 +31,8 @@ function AdvisoryBoard() {
             Reading position in Ennis ISD. He later transitioned to teaching
             5th-grade Reading and Language Arts, spending a total of two years
             in Ennis ISD.
-            <br />
-            <br />
+          </p>
+          <p>
             In March 2006, following the birth of their first daughter, Chad
             decided to pursue a new career path and joined Commercial State
             Bank. He began working in the Loan Underwriting Department, where he
@@ -44,8 +44,8 @@ function AdvisoryBoard() {
             becoming the President of Commercial State Bank. He now serves as
             the Vice Chairman of the Board of Directors and is a trustee of a
             trust that owns stock in the bank.
-            <br />
-            <br />
+          </p>
+          <p>
             Beyond his work in banking, Chad is deeply involved in his
             community, serving on both the Palmer Economic Committee and the
             Ferris Economic Committee. His wife currently works in the +18
@@ -55,19 +55,19 @@ function AdvisoryBoard() {
             love, and animals, including four cats, five dogs, four horses,
             fifteen sheep, five chickens, and one llama. In his free time, Chad
             enjoys cooking, hunting, fishing, and spending time outdoors.
-          </h2>
+          </p>
         </div>
         <div className="AdvisoryCardcontainer">
           <h1>Ofelia Grass</h1>
-          <h2>
+          <p>
             Ofelia Grass is the Owner and Operations Manager of Steam Solutions,
             Inc. in Ferris, where she oversees the day-to-day operations of the
             business, including accounting, human resources, and quality
             control. With extensive experience in leadership roles, Ofelia has a
             strong background in organizational management, employee relations,
             and education.
-            <br />
-            <br />
+          </p>
+          <p>
             Before founding Steam Solutions, Ofelia served the Ferris community
             as an educator and administrator. She was the Assistant
             Superintendent at Ferris ISD from 2004 to 2015, where she led
@@ -77,66 +77,49 @@ function AdvisoryBoard() {
             programs. Prior to that, she was the Principal of Ferris
             Intermediate School, managing faculty and staff and ensuring the
             overall educational success of the school.
-            <br />
-            <br />
-            Ofelia holds a Bachelor of Science degree from Texas Woman’s
+          </p>
+          <p>
+            Ofelia holds a Bachelor of Science degree from Texas Woman's
             University and a Master of Education from Texas A&M
             University-Commerce.
-            <br />
-            <br />
+          </p>
+          <p>
             She grew up in Ferris, Texas as one of 12 children. She and her
             husband Robert currently have 2 children and 7 grandchildren.
-          </h2>
+          </p>
         </div>
       </section>
       <section className="Advisorysection">
         <div className="AdvisoryCardcontainer">
-          <h1>Norman “Coach” Heckathorn</h1>
-          <h2>
-            Coach Heckathorn has dedicated 49 years to the field of education,
-            building an exceptional career as both a teacher and an
-            administrator. A lifelong advocate for learning and student success,
-            Norman holds a Bachelor’s Degree from East Texas University (1967)
-            and a Master’s Degree from Prairie View A&M University (1981).
-            Coach’s passion for education is deeply rooted in his family. His
-            wife served as an educational secretary for 26 years, and all four
-            of his children have followed in his footsteps as educators.
-            <br />
-            <br />
-            Throughout his career, Coach has gained a wealth of experience
-            across various roles, including teacher, coach, athletic director,
-            and administrator. He has worked in school districts ranging from 1A
-            to 5A, giving him a broad perspective on the challenges and
-            opportunities within diverse educational settings. Whether leading
-            small teams as an Athletic Director with just two staff members or
-            managing larger programs with 24 staff members, Norman has
-            consistently demonstrated strong leadership and a commitment to
-            excellence. In addition to his extensive leadership experience,
-            Coach has a strong background in teaching social studies and
-            history, equipping him with an understanding of the academic and
-            social needs of students.
-            <br />
-            <br />
-            Now retired, Coach remains passionate about creating environments
-            where both educators and students can thrive. His decades of
-            experience position him as a valuable advocate for innovative
-            educational initiatives, including charter schools. Coach’s
-            dedication to fostering student success and supporting educators
-            continues to guide his commitment to making a lasting impact in the
-            field of education.
-          </h2>
+          <h1>Misty Tarver</h1>
+          <p>
+            Misty Tarver is a seasoned educational & community leader rooted in vision, grounded in authenticity, strengthened by collaboration,
+            and guided by a deep commitment to making a real difference. Currently serving as the Director of the Carl Perkins CTE Success Center
+            at Navarro College, Misty Tarver leads initiatives that elevate student success, strengthen workforce pathways, and expand opportunities
+            for faculty and students.
+          </p>
+          <p>
+            Misty has spent more than 22 years in education. In her last 8 years with Ferris ISD, she helped shape technology programs, built systems that
+            supported long-term student achievement, and earned her designation as an Exemplary Teacher through the state's Teacher Incentive Allotment.
+            Across every role, Mrs. Tarver has remained driven by a core belief: when people are supported, developed, and inspired, organizations thrive.
+          </p>
+          <p>
+            Whether guiding strategic initiatives, strengthening community partnerships, or developing future-ready talent, Mrs. Tarver brings clarity,
+            purpose, and heart to every endeavor. Mrs. Tarver holds a Bachelor of Science from Texas A&M University in College Station and a Master of
+            Education from Texas A&M-Commerce.
+          </p>
         </div>
         <div className="AdvisoryCardcontainer">
           <h1>Ron Smith</h1>
-          <h2>
+          <p>
             Ron Smith is a distinguished education professional with a wealth of
             experience in business management and leadership. Serving as the
             Business Manager for Ferris ISD from 1989 to 2006, and later as
             Assistant Superintendent for Business from 2007 to 2013, Ron
             consistently demonstrated exceptional expertise in financial
             management, policy compliance, and staff leadership.
-            <br />
-            <br />
+          </p>
+          <p>
             With a robust background in accounting and business operations, Ron
             excelled in managing complex tasks under tight deadlines, ensuring
             the seamless and efficient operation of the district's business
@@ -145,8 +128,8 @@ function AdvisoryBoard() {
             In this role, he oversaw critical responsibilities such as bank
             reconciliations, general ledger maintenance, investments, and daily
             deposits.
-            <br />
-            <br />
+          </p>
+          <p>
             At Ferris ISD, Ron was instrumental in overseeing budgeting,
             payroll, insurance, and other essential financial operations. He
             also provided visionary leadership to staff and conducted
@@ -159,13 +142,14 @@ function AdvisoryBoard() {
             personnel. The group currently includes 11 school districts and two
             charter schools, fostering collaboration and knowledge sharing among
             its members.
-            <br />
-            <br />A native of Dallas and Terrell, Texas, Ron comes from a
+          </p>
+          <p>
+            A native of Dallas and Terrell, Texas, Ron comes from a
             close-knit family with two siblings. He is a proud father of three
             children, grandfather to nine grandchildren, and soon-to-be
             great-grandfather. He also enjoys the company of his Persian cat,
             Winston.
-          </h2>
+          </p>
         </div>
       </section>
     </main>

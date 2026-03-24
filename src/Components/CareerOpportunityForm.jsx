@@ -1,24 +1,17 @@
 import './CareerOpportunityForm.css';
+import JotFormEmbed from './JotFormEmbed';
 
-
-function CareerOpportunityForm () {
-    return(
-        <>
-        <main className="CareerOpportunitymain">
-        <iframe
-        className="CareerOpportunityFrame"
-   title="K-8 School Application Form"
-   src="https://form.jotform.com/243180679174160"
-   style={{
-      width: '100%',
-   }}
-/>
-
-    
-        </main>
-        
-        </>
-    )
+function CareerOpportunityForm() {
+  return (
+    <main className="CareerOpportunitymain">
+      <div className="CareerOpportunityFrame">
+        <JotFormEmbed
+          src="https://form.jotform.com/243180679174160"
+          title="Career Opportunities Form"
+        />
+      </div>
+    </main>
+  );
 }
 
 export default CareerOpportunityForm;

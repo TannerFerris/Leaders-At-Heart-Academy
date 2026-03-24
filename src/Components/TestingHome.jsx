@@ -2,8 +2,6 @@
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./TestingHome.css";
-import "./HeroSection.jsx";
-import "./HeroSection.css";
 import gsap from "gsap";
 import SplitType from "split-type";
 import { useEffect } from "react";
@@ -14,8 +12,9 @@ import Vision from "../assets/Vision-min.png";
 import Values from "../assets/Values-min.png";
 import { ScrollToPlugin } from "gsap/all";
 
+gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollToPlugin);
+
 function TestingHome() {
-  gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollToPlugin);
 
   useEffect(() => {
     const text1 = new SplitType("#info1");
@@ -766,8 +765,7 @@ function TestingHome() {
             <div id="info3" className="testInfoLeft">
               <p>
                 Setting every student on the path to bilingualism and biliteracy
-                - and it's mandatory for all. From kindergarten through
-                highschool, every student, whether native English speaker or a
+                - and it's mandatory for all. All elementary students, whether native English speaker or a
                 native Spanish speaker, participates in an environment where 50%
                 of instruction is in Spanish and 50% is in English. This balance
                 remains consistent throughout their school experience, providing

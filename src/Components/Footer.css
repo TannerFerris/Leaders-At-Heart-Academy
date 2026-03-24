@@ -1,5 +1,8 @@
 .footer {
-background-color: #121f30;
-opacity: 1;
-color: white;
+  background-color: #121f30;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-family: "Noto Serif", serif;
+  font-size: 0.9rem;
 }

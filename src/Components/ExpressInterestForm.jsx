@@ -1,25 +1,17 @@
 import './ExpressInterestForm.css';
+import JotFormEmbed from './JotFormEmbed';
 
-
-function ExpressInterestForm () {
-    return(
-        <>
-        <main className="ExpressInterestmain">
-        <iframe
-        className="ExpressInterestFrame"
-   title="K-8 School Application Form"
-   src="https://form.jotform.com/242975831294164"
-   style={{
-      width: '100%',
-      height: '250vh',
-   }}
-/>
-
-    
-        </main>
-        
-        </>
-    )
+function ExpressInterestForm() {
+  return (
+    <main className="ExpressInterestmain">
+      <div className="ExpressInterestFrame">
+        <JotFormEmbed
+          src="https://form.jotform.com/242975831294164"
+          title="Express Interest Form"
+        />
+      </div>
+    </main>
+  );
 }
 
 export default ExpressInterestForm;
