@@ -169,7 +169,7 @@ function AdvisoryBoard() {
             retired as Director of Human Resources for Ferris ISD in 2023. As you can tell Ferris holds a special place in her heart!
           </p>
           <p>
-            Her career ended where her education began in Ferris. She is one of many people who only wants the best for the children of Ferris,Texas. Now retired,
+            Her career ended where her education began in Ferris. She is one of many people who only wants the best for the children of Ferris, Texas. Now retired,
             Mrs. Griffith remains passionate about creating environments where both educators and students can thrive. Her years of experience position her as a
             valuable advocate for innovative educational initiatives, including charter schools. Mrs. Griffith’s dedication to fostering student success and
             supporting educators continue to guide her commitment to making a lasting impact in the ever-changing field of education.
