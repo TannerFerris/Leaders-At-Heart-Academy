@@ -152,6 +152,32 @@ function AdvisoryBoard() {
           </p>
         </div>
       </section>
+      <section className="Advisorysection">
+        <div className="AdvisoryCardcontainer">
+          <h1>Vickie Griffith</h1>
+          <p>
+            Mrs. Vickie Griffith is a valued community member who has served 30 years in the field of education building an exceptional career
+            as a teacher and administrator. She comes from a family of educators, and has dedicated her life to teaching, modeling, and leading.
+          </p>
+          <p>
+            As an educator, she served in several capacities for various districts in Ellis and surrounding counties.She started out as a school secretary,
+            paraprofessional, and bus driver all for Ferris ISD. After earning her Bachelor’s degree in History and Elementary education from the University
+            of Texas at Arlington, she began her teaching career in Palmer ISD where she taught 1st grade. She then moved on to DeSoto ISD for a year then
+            finished her teaching career in Ennis ISD as a 2nd grade teacher. In 2011, she earned her Master’s degree in Educational Administration from UTA.
+            With this new degree, she stepped out of the classroom and began her new role as an administrator for Jacksonville ISD, Scurry-Rosser ISD, Ennis ISD,
+            and ultimately back to Ferris ISD. She served as elementary principal for both Hazel Ingram Elementary and Lucy Mae McDonald Elementary schools. She
+            retired as Director of Human Resources for Ferris ISD in 2023. As you can tell Ferris holds a special place in her heart!
+          </p>
+          <p>
+            Her career ended where her education began in Ferris. She is one of many people who only wants the best for the children of Ferris,Texas. Now retired,
+            Mrs. Griffith remains passionate about creating environments where both educators and students can thrive. Her years of experience position her as a
+            valuable advocate for innovative educational initiatives, including charter schools. Mrs. Griffith’s dedication to fostering student success and
+            supporting educators continue to guide her commitment to making a lasting impact in the ever-changing field of education.
+          </p>
+        </div>
+        <div className="AdvisoryCardcontainerBlank">
+        </div>
+      </section>
     </main>
   );
 }
